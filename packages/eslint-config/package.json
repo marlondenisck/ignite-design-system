@@ -1,0 +1,23 @@
+{
+  "name": "@ignite-ui/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint configuration for Ignite UI packages",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "react.js"
+  ],
+  "dependencies": {
+    "@eslint/js": "^9.38.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.38.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "typescript": "^5.0.0"
+  }
+}

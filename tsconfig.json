@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Ignite Design System Workspace",
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/tokens"
+    },
+    {
+      "path": "./packages/react"
+    }
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true
+  }
+}

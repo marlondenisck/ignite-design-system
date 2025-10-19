@@ -1,0 +1,14 @@
+{
+  "name": "@ignite-ui/ts-config",
+  "version": "1.0.0",
+  "description": "Shared TypeScript configuration for Ignite UI packages",
+  "main": "./base.json",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "base.json",
+    "react.json",
+    "web.json",
+    "node.json"
+  ]
+}
