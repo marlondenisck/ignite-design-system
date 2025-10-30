@@ -1,4 +1,6 @@
 import type { Preview } from '@storybook/react-vite'
+// Importando o CSS global com Tailwind
+import '../src/globals.css'
 
 const preview: Preview = {
   parameters: {
