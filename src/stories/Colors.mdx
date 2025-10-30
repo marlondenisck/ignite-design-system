@@ -1,0 +1,37 @@
+import { ColorsGrid } from '../components/ColorsGrid'
+
+export const meta = {
+  title: 'Tokens/Colors',
+  parameters: {
+    layout: 'padded',
+  },
+}
+
+# Colors
+
+Essas são as cores utilizadas no Ignite UI Design System.
+
+## Paleta de Cores
+
+Abaixo você encontra todas as cores definidas no sistema, organizadas por categorias:
+
+<ColorsGrid />
+
+## Como usar
+
+Para usar essas cores em seus componentes, você pode referenciar as variáveis CSS:
+
+```css
+.my-component {
+  background-color: var(--color-ignite-500);
+  color: var(--color-white);
+}
+```
+
+Ou usar as classes do Tailwind CSS:
+
+```html
+<div className="bg-ignite-500 text-white">
+  Meu componente
+</div>
+```

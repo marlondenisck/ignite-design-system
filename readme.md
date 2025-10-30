@@ -1,1 +1,1 @@
-.
+<img src="./example.png" alt="Example Image" />
